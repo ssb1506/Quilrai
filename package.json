@@ -1,0 +1,32 @@
+{
+  "name": "quilrai-ai-field-developer-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Solutions for the QuilrAI AI Field Developer technical assessment",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev:task1": "tsx src/task1/server.ts",
+    "dev:task2": "tsx src/task2/server.ts",
+    "dev:task3": "tsx src/task3/server.ts",
+    "dev:task4": "tsx src/task4/server.ts",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "supertest": "^7.1.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.9.2",
+    "vitest": "^4.1.12"
+  }
+}
